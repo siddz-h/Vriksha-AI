@@ -1,0 +1,6 @@
+{
+  "name": "Vriksha AI — Node-Based LLM Lifecycle Orchestrator",
+  "description": "Low-code/no-code node-based LLM orchestration platform built on the Oumi framework and vLLM PagedAttention inference engine for SFT, GRPO RLHF, evaluation, and ClusterID LoRA deployment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

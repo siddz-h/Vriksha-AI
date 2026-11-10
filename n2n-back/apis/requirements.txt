@@ -1,0 +1,17 @@
+# Vriksha AI — Backend & ML Infrastructure Dependencies (n2n-back/apis/requirements.txt)
+oumi[gpu]>=0.1.4
+vllm>=0.6.4
+torch>=2.4.0
+transformers>=4.46.0
+peft>=0.13.2
+accelerate>=1.1.0
+bitsandbytes>=0.44.1
+datasets>=3.1.0
+trl>=0.12.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.2
+pyyaml>=6.0.2
+httpx>=0.27.2
+psutil>=6.1.0
+nvidia-ml-py>=12.560.30

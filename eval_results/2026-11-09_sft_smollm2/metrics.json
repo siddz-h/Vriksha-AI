@@ -1,0 +1,25 @@
+{
+  "cluster_id": "cluster-8492-sft",
+  "timestamp": "2026-11-09T21:14:00Z",
+  "base_model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "trainer_type": "TRL_SFT",
+  "hardware_profile": "RTX 4060 Laptop (8GB VRAM · WSL2)",
+  "final_metrics": {
+    "train_loss": 0.642,
+    "eval_loss": 0.718,
+    "perplexity": 2.05,
+    "token_accuracy": 0.864,
+    "kl_divergence": 0.012,
+    "vram_peak_gb": 3.42,
+    "throughput_tokens_per_sec": 1840
+  },
+  "steps": [
+    { "step": 20, "loss": 2.38, "perplexity": 10.80, "accuracy": 0.512, "reward": 0.42 },
+    { "step": 40, "loss": 1.84, "perplexity": 6.29, "accuracy": 0.618, "reward": 0.56 },
+    { "step": 60, "loss": 1.41, "perplexity": 4.09, "accuracy": 0.704, "reward": 0.67 },
+    { "step": 80, "loss": 1.09, "perplexity": 2.97, "accuracy": 0.768, "reward": 0.75 },
+    { "step": 100, "loss": 0.88, "perplexity": 2.41, "accuracy": 0.815, "reward": 0.81 },
+    { "step": 120, "loss": 0.74, "perplexity": 2.09, "accuracy": 0.846, "reward": 0.85 },
+    { "step": 140, "loss": 0.642, "perplexity": 1.90, "accuracy": 0.864, "reward": 0.89 }
+  ]
+}
