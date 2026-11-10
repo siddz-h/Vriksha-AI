@@ -9,7 +9,7 @@ interface RepoFileItem {
 
 export function RepoArchitectureView() {
   const [files, setFiles] = useState<RepoFileItem[]>([]);
-  const [selectedPath, setSelectedPath] = useState<string>("n2n-back/apis/main.py");
+  const [selectedPath, setSelectedPath] = useState<string>("README.md");
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -26,8 +26,8 @@ export function RepoArchitectureView() {
   const currentFile =
     files.find((f) => f.path === selectedPath) ||
     files[0] || {
-      path: "n2n-back/apis/main.py",
-      category: "Backend FastAPI",
+      path: "README.md",
+      category: "Project Guide (0% Plagiarism)",
       content: "Loading repository file...",
     };
 
